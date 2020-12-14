@@ -1,0 +1,66 @@
+.global-header .nav-links {
+    display: none;
+}
+.global-header {
+    background: rebeccapurple;
+    box-shadow: none;
+}
+#content-container.login-register-content {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+#login-and-registration-container,
+#login-and-registration-container #login-anchor,
+#login-and-registration-container #register-anchor,
+#login-and-registration-container .toggle-form {
+    margin: unset;
+    max-width: unset;
+}
+#login-and-registration-container a, .forgot-password.field-link {
+    text-decoration: none !important;
+    color: orange !important;
+}
+#login-and-registration-container .login-button,
+#login-and-registration-container .register-button {
+    background: lime;
+    color: rebeccapurple;
+    border-radius: 4px;
+    width: auto;
+    padding: 12px 8px;
+    box-shadow: none;
+}
+form#login, form#register {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-auto-flow: column;
+    grid-column-gap: 128px;
+}
+form#login .login-providers, form#register .login-providers {
+    grid-column-start: 2;
+    border-left: 1px solid #eee;
+    height: 100%;
+    grid-row-start: 1;
+    grid-row-end: 5;
+    padding-left: 64px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+form#login input[type="email"], form#login input[type="password"], form#login input[type="text"],
+form#register input[type="email"], form#register input[type="password"], form#register input[type="text"] {
+    height: unset;
+    padding: 16px;
+}
+.login-providers .section-title.lines {
+    display: none;
+}
+.login-providers .login-provider {
+    width: 100%;
+    height: 60px;
+}
+.login-providers .button-oa2-github {
+    background: black;
+}
+
