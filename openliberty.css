@@ -1,66 +1,148 @@
 .global-header .nav-links {
-    display: none;
+  display: none;
 }
+
 .global-header {
-    background: rebeccapurple;
-    box-shadow: none;
+  background: #313653;
+  box-shadow: none;
 }
+
 #content-container.login-register-content {
-    display: flex;
-    justify-content: flex-start;
-    align-items: center;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
 }
+
 #login-and-registration-container,
 #login-and-registration-container #login-anchor,
 #login-and-registration-container #register-anchor,
 #login-and-registration-container .toggle-form {
-    margin: unset;
-    max-width: unset;
-}
-#login-and-registration-container a, .forgot-password.field-link {
-    text-decoration: none !important;
-    color: orange !important;
-}
-#login-and-registration-container .login-button,
-#login-and-registration-container .register-button {
-    background: lime;
-    color: rebeccapurple;
-    border-radius: 4px;
-    width: auto;
-    padding: 12px 8px;
-    box-shadow: none;
-}
-form#login, form#register {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    grid-auto-flow: column;
-    grid-column-gap: 128px;
-}
-form#login .login-providers, form#register .login-providers {
-    grid-column-start: 2;
-    border-left: 1px solid #eee;
-    height: 100%;
-    grid-row-start: 1;
-    grid-row-end: 5;
-    padding-left: 64px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: flex-start;
-}
-form#login input[type="email"], form#login input[type="password"], form#login input[type="text"],
-form#register input[type="email"], form#register input[type="password"], form#register input[type="text"] {
-    height: unset;
-    padding: 16px;
-}
-.login-providers .section-title.lines {
-    display: none;
-}
-.login-providers .login-provider {
-    width: 100%;
-    height: 60px;
-}
-.login-providers .button-oa2-github {
-    background: black;
+  margin: unset;
+  max-width: unset;
 }
 
+#login-and-registration-container a,
+.forgot-password.field-link {
+  text-decoration: none !important;
+  color: orange !important;
+}
+
+#login-and-registration-container .login-button,
+#login-and-registration-container .register-button {
+  background: #acd154;
+  color: #313653;
+  border-radius: 4px;
+  width: auto;
+  padding: 12px 8px;
+  box-shadow: none;
+}
+
+#login-and-registration-container h2 {
+  color: #313653;
+}
+
+form#login,
+form#register {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-auto-flow: column;
+  grid-column-gap: 128px;
+}
+
+form#login .login-providers,
+form#register .login-providers {
+  grid-column-start: 2;
+  border-left: 1px solid #eee;
+  height: 100%;
+  grid-row-start: 1;
+  grid-row-end: 5;
+  padding-left: 64px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+form#login input[type="email"],
+form#login input[type="password"],
+form#login input[type="text"],
+form#register input[type="email"],
+form#register input[type="password"],
+form#register input[type="text"] {
+  height: unset;
+  padding: 16px;
+}
+
+/* SSO Buttons */
+
+#register .section-title.lines,
+.login-providers .section-title.lines {
+  display: none;
+}
+
+.login-providers .login-provider {
+  width: 100%;
+  height: 60px;
+}
+
+.login-providers .button {
+  font-size: 1rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 0;
+  border-radius: 6px;
+  color: white;
+  border: none;
+  margin-bottom: 12px;
+}
+
+.login-providers .button .icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 16px;
+  font-size: 2rem;
+  position: relative;
+  background: transparent;
+}
+
+.login-providers .button-oa2-github {
+  background-color: #242a2e;
+}
+
+.login-providers .button-oa2-google-oauth2 {
+  background-color: #d0482d !important;
+}
+
+.login-providers .button-oa2-linkedin-oauth2 {
+  background-color: #0177b5;
+  color: white !important;
+}
+
+.login-providers .button-oa2-ibmid {
+  background-color: #0730ad !important;
+}
+
+/* Mobile */
+@media (max-width: 767px) {
+  form#login,
+  form#register {
+    grid-template-columns: 1fr;
+    grid-auto-flow: row;
+    grid-column-gap: 0px;
+  }
+
+  .login-providers .section-title.lines {
+    display: block;
+    width: 100%;
+  }
+
+  form#login .login-providers,
+  form#register .login-providers {
+    grid-column-start: 1;
+    grid-row-start: 5;
+    border: none;
+    padding-left: 0px;
+  }
+}
