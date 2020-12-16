@@ -162,13 +162,6 @@ form#register input[type="text"] {
   background-color: #0730ad !important;
 }
 
-/* Register Page */
-
-#register-form {
-  display: block;
-  max-width: 55%;
-}
-
 /* Mobile */
 @media (max-width: 767px) {
   form#login,
@@ -193,9 +186,5 @@ form#register input[type="text"] {
 
   .login-providers .login-provider {
     width: 100%;
-  }
-
-  #register-form {
-    max-width: 55%;
   }
 }
