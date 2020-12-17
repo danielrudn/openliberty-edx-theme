@@ -40,6 +40,7 @@ function addAccountReqText() {
 
     if (newUserText) {
         const span = document.createElement('span');
+        span.className = 'text'
         span.textContent = 'To prevent abuse of our cloud hosted environments we require users to authenticate themselves, this can be done via the provided social login options or by creating a account.';
         newUserText.insertBefore(span, document.querySelector('.toggle-form'));
     }
