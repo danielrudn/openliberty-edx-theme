@@ -25,7 +25,11 @@ function SSOtext() {
 }
 
 function addAccountReqText() {
-    document.getElementsByClassName('toggle-form')[0].insertAdjacentHTML('beforebegin', '<span class="text">To prevent abuse of our cloud hosted environments we require users to authenticate themselves, this can be done via the provided social login options or by creating a account.</span>');
+    var New_User_Text = document.getElementsByClassName('toggle-form')[0]
+
+    if (New_User_Text) {
+        New_User_Text.insertAdjacentHTML('beforebegin', '<span class="text">To prevent abuse of our cloud hosted environments we require users to authenticate themselves, this can be done via the provided social login options or by creating a account.</span>');
+    }
 }
 
 function fixRegisterPage() {
