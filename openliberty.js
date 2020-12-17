@@ -8,17 +8,30 @@ function SSOtext() {
     var IBMid_register = document.querySelector('.register-oa2-ibmid')
     var LinkedIn_register = document.querySelector('.register-oa2-linkedin-oauth2')
 
-    if (GitHub_enabled) {
-    GitHub_enabled.textContent = 'Sign in with GitHub'
+    if (GitHub_login) {
+        GitHub_login.textContent = 'Sign in with GitHub'
+        }
+        if (Google_login) {
+        Google_login.textContent = 'Sign in with Google'
+        }
+        if (IBMid_login) {
+        IBMid_login.textContent = 'Sign in with IBMid'
+        }
+        if (LinkedIn_login) {
+        LinkedIn_login.textContent = 'Sign in with LinkedIn'
     }
-    if (Google_enabled) {
-    Google_enabled.textContent = 'Sign in with Google'
-    }
-    if (IBMid_enabled) {
-    IBMid_enabled.textContent = 'Sign in with IBMid'
-    }
-    if (LinkedIn_enabled) {
-    LinkedIn_enabled.textContent = 'Sign in with LinkedIn'
+
+    if (GitHub_register) {
+        GitHub_login.textContent = 'Register with GitHub'
+        }
+        if (Google_register) {
+        Google_login.textContent = 'Register with Google'
+        }
+        if (IBMid_register) {
+        IBMid_login.textContent = 'Register with IBMid'
+        }
+        if (LinkedIn_register) {
+        LinkedIn_login.textContent = 'Register with LinkedIn'
     }
 }
 
