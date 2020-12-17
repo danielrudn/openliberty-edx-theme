@@ -1,9 +1,3 @@
-window.addEventListener('load', function (){
-    SSOtext();
-    addAccountReqText();
-    fixRegisterPage();
-});
-
 function SSOtext() {
     var GitHub_enabled = document.getElementsByClassName('login-oa2-github')[0]
     var Google_enabled = document.getElementsByClassName('login-oa2-google-oauth2')[0]
@@ -46,3 +40,7 @@ function fixRegisterPage() {
         }
     }
 }
+
+SSOtext();
+addAccountReqText();
+fixRegisterPage();
