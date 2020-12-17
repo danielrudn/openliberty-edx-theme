@@ -1,8 +1,8 @@
-window.onload = function () {
+window.addEventListener('load', function (){
     SSOtext();
     addAccountReqText();
     fixRegisterPage();
-}
+});
 
 function SSOtext() {
     var GitHub_enabled = document.getElementsByClassName('login-oa2-github')[0]
