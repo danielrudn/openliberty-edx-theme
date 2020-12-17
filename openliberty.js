@@ -1,12 +1,12 @@
 function SSOtext() {
-    var GitHub_login = document.querySelector('.login-oa2-github')
-    var Google_login = document.querySelector('.login-oa2-google-oauth2')
-    var IBMid_login = document.querySelector('.login-oa2-ibmid')
-    var LinkedIn_login = document.querySelector('.login-oa2-linkedin-oauth2')
-    var GitHub_register = document.querySelector('.register-oa2-github')
-    var Google_register = document.querySelector('.register-oa2-google-oauth2')
-    var IBMid_register = document.querySelector('.register-oa2-ibmid')
-    var LinkedIn_register = document.querySelector('.register-oa2-linkedin-oauth2')
+    var GitHub_login = document.querySelector('.login-oa2-github span')
+    var Google_login = document.querySelector('.login-oa2-google-oauth2 span')
+    var IBMid_login = document.querySelector('.login-oa2-ibmid span')
+    var LinkedIn_login = document.querySelector('.login-oa2-linkedin-oauth2 span')
+    var GitHub_register = document.querySelector('.register-oa2-github span')
+    var Google_register = document.querySelector('.register-oa2-google-oauth2 span')
+    var IBMid_register = document.querySelector('.register-oa2-ibmid span')
+    var LinkedIn_register = document.querySelector('.register-oa2-linkedin-oauth2 span')
 
     if (GitHub_login) {
         GitHub_login.textContent = 'Sign in with GitHub'
