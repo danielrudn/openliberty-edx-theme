@@ -22,26 +22,26 @@ function SSOtext() {
     }
 
     if (GitHub_register) {
-        GitHub_login.textContent = 'Register with GitHub'
+        GitHub_register.textContent = 'Register with GitHub'
         }
         if (Google_register) {
-        Google_login.textContent = 'Register with Google'
+        Google_register.textContent = 'Register with Google'
         }
         if (IBMid_register) {
-        IBMid_login.textContent = 'Register with IBMid'
+        IBMid_register.textContent = 'Register with IBMid'
         }
         if (LinkedIn_register) {
-        LinkedIn_login.textContent = 'Register with LinkedIn'
+        LinkedIn_register.textContent = 'Register with LinkedIn'
     }
 }
 
 function addAccountReqText() {
-    var newUserText = document.querySelector('.toggle-form')
+    var newUserText = document.querySelector('#login-form')
 
     if (newUserText) {
         const span = document.createElement('span');
         span.textContent = 'To prevent abuse of our cloud hosted environments we require users to authenticate themselves, this can be done via the provided social login options or by creating a account.';
-        newUserText.insertBefore(span, document.querySelector('.text'));
+        newUserText.insertBefore(span, document.querySelector('.toggle-form'));
     }
 }
 
