@@ -36,14 +36,10 @@ function SSOtext() {
 }
 
 function addAccountReqText() {
-    var newUserText = document.querySelector('#login-form')
-    var registerText = document.querySelector('.toggle-form')
+    var newUserText = document.querySelector('.toggle-form')
 
-    if (newUserText && registerText) {
-        const span = document.createElement('span');
-        span.className = 'text'
-        span.textContent = 'To prevent abuse of our cloud hosted environments we require users to authenticate themselves, this can be done via the provided social login options or by creating a account.';
-        newUserText.insertBefore(span, registerText);
+    if (newUserText) {
+        newUserText.insertAdjacentHTML('beforebegin', '<span class="text">To prevent abuse of our cloud hosted environments we require users to authenticate themselves, this can be done via the provided social login options or by creating a account.</span>');
     }
 }
 
