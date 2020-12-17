@@ -1,8 +1,12 @@
 function SSOtext() {
-    var GitHub_enabled = document.querySelector('.button-oa2-github')
-    var Google_enabled = document.querySelector('.button-oa2-google-oauth2')
-    var IBMid_enabled = document.querySelector('.button-oa2-ibmid')
-    var LinkedIn_enabled = document.querySelector('.button-oa2-linkedin-oauth2')
+    var GitHub_login = document.querySelector('.login-oa2-github')
+    var Google_login = document.querySelector('.login-oa2-google-oauth2')
+    var IBMid_login = document.querySelector('.login-oa2-ibmid')
+    var LinkedIn_login = document.querySelector('.login-oa2-linkedin-oauth2')
+    var GitHub_register = document.querySelector('.register-oa2-github')
+    var Google_register = document.querySelector('.register-oa2-google-oauth2')
+    var IBMid_register = document.querySelector('.register-oa2-ibmid')
+    var LinkedIn_register = document.querySelector('.register-oa2-linkedin-oauth2')
 
     if (GitHub_enabled) {
     GitHub_enabled.textContent = 'Sign in with GitHub'
@@ -24,7 +28,7 @@ function addAccountReqText() {
     if (newUserText) {
         const span = document.createElement('span');
         span.textContent = 'To prevent abuse of our cloud hosted environments we require users to authenticate themselves, this can be done via the provided social login options or by creating a account.';
-        newUserText.insertBefore(span);
+        newUserText.insertBefore(span, document.querySelector('.text'));
     }
 }
 
