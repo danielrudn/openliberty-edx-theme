@@ -45,8 +45,8 @@ function addAccountReqText() {
 
 function fixRegisterPage() {
     var ssoUsed = document.querySelector('.js-auth-warning .status')
-    var registerForm = document.getElementById('register')
-    var loginForm = document.getElementById('login')
+    var registerForm = document.querySelector('#register')
+    var loginForm = document.querySelector('#login')
 
     if (ssoUsed) {
         if (registerForm) {
