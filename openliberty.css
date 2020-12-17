@@ -108,7 +108,7 @@ form#register input[type="text"] {
 }
 
 .login-providers .login-provider {
-  width: 175%;
+  width: 100%;
   height: 3rem;
 }
 
