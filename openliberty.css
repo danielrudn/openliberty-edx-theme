@@ -14,6 +14,10 @@
   padding-left: 3rem;
 }
 
+#login-form {
+  max-width: 80%;
+}
+
 #login-and-registration-container,
 #login-and-registration-container #login-anchor,
 #login-and-registration-container #register-anchor,
@@ -108,7 +112,7 @@ form#register input[type="text"] {
 }
 
 .login-providers .login-provider {
-  width: 100%;
+  width: 175%;
   height: 3rem;
 }
 
