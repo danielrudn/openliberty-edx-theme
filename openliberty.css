@@ -57,6 +57,7 @@ form#register {
   grid-template-columns: 1fr 1fr;
   grid-auto-flow: column;
   grid-column-gap: 128px;
+  padding-bottom: 3rem;
 }
 
 form#login .login-providers,
