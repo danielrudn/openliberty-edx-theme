@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap&family=IBM+Plex+Sans&display=swap');
+
+
 .global-header .nav-links {
   display: none;
 }
@@ -43,7 +46,6 @@
 }
 
 #login-and-registration-container h2 {
-  @import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&display=swap');
   font-family: 'Asap', sans-serif;
   color: #2C2E50;
   letter-spacing: 0;
@@ -86,15 +88,14 @@ form#register input[type="text"] {
 }
 
 .text, #login-and-registration-container a {
-  @import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&display=swap');
-  font-family: Asap-Regular;
+  font-family: 'Asap', sans-serif;
   font-size: .9rem;
   color: #161616;
   letter-spacing: 0;
 }
 
 .label-text, #login-email {
-  font-family: IBMPlexSans;
+  font-family: 'IBM Plex Sans', sans-serif;
   font-size: 0.7rem;
   color: #525252;
   letter-spacing: 0.02rem;
@@ -118,14 +119,13 @@ form#register input[type="text"] {
 }
 
 #login-email-desc, .forgot-password {
-  font-family: Asap-Regular;
+  font-family: 'Asap', sans-serif;
   font-size: .7rem;
   color: #161616;
   letter-spacing: 0;
 }
 
 .login-providers .button {
-  @import url('https://fonts.googleapis.com/css2?family=Asap:wght@400;500;600;700&display=swap');
   font-family: 'Asap', sans-serif;
   font-size: .8rem;
   color: #FFFFFF;
