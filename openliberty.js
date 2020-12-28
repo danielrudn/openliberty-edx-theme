@@ -1,45 +1,9 @@
-function SSOtext() {
-    var GitHub_login = document.querySelector('.login-oa2-github span')
-    var Google_login = document.querySelector('.login-oa2-google-oauth2 span')
-    var IBMid_login = document.querySelector('.login-oa2-ibmid span')
-    var LinkedIn_login = document.querySelector('.login-oa2-linkedin-oauth2 span')
-    var GitHub_register = document.querySelector('.register-oa2-github span')
-    var Google_register = document.querySelector('.register-oa2-google-oauth2 span')
-    var IBMid_register = document.querySelector('.register-oa2-ibmid span')
-    var LinkedIn_register = document.querySelector('.register-oa2-linkedin-oauth2 span')
-
-    if (GitHub_login) {
-        GitHub_login.textContent = 'Sign in with GitHub'
-        }
-        if (Google_login) {
-        Google_login.textContent = 'Sign in with Google'
-        }
-        if (IBMid_login) {
-        IBMid_login.textContent = 'Sign in with IBMid'
-        }
-        if (LinkedIn_login) {
-        LinkedIn_login.textContent = 'Sign in with LinkedIn'
-    }
-
-    if (GitHub_register) {
-        GitHub_register.textContent = 'Register with GitHub'
-        }
-        if (Google_register) {
-        Google_register.textContent = 'Register with Google'
-        }
-        if (IBMid_register) {
-        IBMid_register.textContent = 'Register with IBMid'
-        }
-        if (LinkedIn_register) {
-        LinkedIn_register.textContent = 'Register with LinkedIn'
-    }
-}
-
 function addAccountReqText() {
     var newUserText = document.querySelector('#login-form')
 
     if (newUserText) {
-        newUserText.insertAdjacentHTML('beforeend', '<span class="text register-explain">To prevent abuse of our cloud hosted environments we require users to authenticate themselves, this can be done via the provided social login options or by creating a account.</span>');
+        newUserText.insertAdjacentHTML('afterend', '<span class="text register-explain">To prevent abuse of our cloud hosted environments we require users to authenticate themselves, this can be done via the provided social login options or by creating a account.</span>');
+        newUserText.style.maxWidth = "80%";
     }
 }
 
@@ -58,6 +22,5 @@ function fixRegisterPage() {
     }
 }
 
-SSOtext();
 addAccountReqText();
 fixRegisterPage();
