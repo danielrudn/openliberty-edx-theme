@@ -118,6 +118,10 @@ form#register input[type="text"] {
   height: 3rem;
 }
 
+#register .login-providers .login-provider {
+  width: 120%;
+}
+
 #login-email-desc, .forgot-password {
   font-family: 'Asap', sans-serif;
   font-size: .7rem;
