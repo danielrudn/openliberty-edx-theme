@@ -82,7 +82,7 @@ form#login input[type="text"],
 form#register input[type="email"],
 form#register input[type="password"],
 form#register input[type="text"] {
-  height: unset;
+  height: 2.5rem;
   padding: 16px;
   border-color: #979797;
 }
