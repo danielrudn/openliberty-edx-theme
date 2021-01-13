@@ -33,6 +33,7 @@
 .forgot-password.field-link {
   text-decoration: none !important;
   color: #CC4D19 !important;
+  font-size: 0.8rem;
 }
 
 #login-and-registration-container .login-button,
@@ -96,7 +97,7 @@ form#register input[type="text"] {
 
 .label-text, #login-email {
   font-family: 'IBM Plex Sans', sans-serif;
-  font-size: 0.7rem;
+  font-size: 0.8rem;
   color: #525252;
   letter-spacing: 0.02rem;
 }
