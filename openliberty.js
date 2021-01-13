@@ -30,6 +30,8 @@ function changeTitleText() {
     }
 }
 
-addAccountReqText();
-fixRegisterPage();
-changeTitleText();
+(function() {
+    addAccountReqText();
+    fixRegisterPage();
+    changeTitleText();
+})();
