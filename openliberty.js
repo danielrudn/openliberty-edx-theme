@@ -28,10 +28,10 @@ function changeTitleText() {
     if (signIn) {
         signIn.textContent = 'Access Cloud Hosted Guides'
     }
-}
+};
 
-$(window).load(function() {
-    addAccountReqText();
-    fixRegisterPage();
-    changeTitleText();
-})();
+// $(window).load(function() {
+//     addAccountReqText();
+//     fixRegisterPage();
+//     changeTitleText();
+// })();
