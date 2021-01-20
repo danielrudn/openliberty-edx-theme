@@ -22,16 +22,16 @@ function fixRegisterPage() {
     }
 }
 
-setTimeout(function changeTitleText() {
+function changeTitleText() {
     var signIn = document.querySelector('#login-form h2')
 
     if (signIn) {
         signIn.textContent = 'Access Cloud Hosted Guides'
     }
-},3000)
+}
 
 setTimeout(function() {
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
-},1000)();
+},100)();
