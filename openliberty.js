@@ -30,8 +30,8 @@ function changeTitleText() {
     }
 }
 
-$(window).bind("load", function() {
+(function() {
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
-})();
+});
