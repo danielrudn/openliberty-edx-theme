@@ -30,8 +30,8 @@ $(document).ready(function changeTitleText() {
     }
 })
 
-(function() {
+setTimeout(function() {
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
-})();
+},3000)();
