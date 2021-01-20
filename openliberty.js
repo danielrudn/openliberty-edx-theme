@@ -30,7 +30,7 @@ $(function changeTitleText() {
     }
 })
 
-(function() {
+$(function() {
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
