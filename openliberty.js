@@ -25,7 +25,7 @@ function fixRegisterPage() {
 function changeTitleText() {
     var signIn = document.querySelector('#login-form h2')
 
-    while (signIn == null) {
+    while (signIn != null) {
         signIn.textContent = 'Access Cloud Hosted Guides'
     }
 };
