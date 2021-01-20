@@ -1,3 +1,5 @@
+window.addEventListener("load", changeTitleText, false);
+
 function addAccountReqText() {
     var newUserText = document.querySelector('#login-form')
 
@@ -22,7 +24,7 @@ function fixRegisterPage() {
     }
 }
 
-function changeTitleText() {
+function changeTitleText(e) {
     var signIn = document.querySelector('#login-form h2')
 
     if (signIn) {
