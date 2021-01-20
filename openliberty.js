@@ -34,4 +34,4 @@ function changeTitleText() {
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
-});
+})();
