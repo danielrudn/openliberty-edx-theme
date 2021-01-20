@@ -30,6 +30,8 @@ window.addEventListener('load', function changeTitleText() {
     }
 })
 
+setTimeout(changeTitleText, 2000)
+
 (function() {
     addAccountReqText();
     fixRegisterPage();
