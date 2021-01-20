@@ -1,5 +1,3 @@
-
-
 function addAccountReqText() {
     var newUserText = document.querySelector('#login-form')
 
@@ -36,4 +34,4 @@ function changeTitleText() {
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
-})();
+});
