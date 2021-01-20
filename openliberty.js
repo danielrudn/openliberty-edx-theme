@@ -28,7 +28,7 @@ $(function changeTitleText() {
     if (signIn) {
         signIn.textContent = 'Access Cloud Hosted Guides'
     }
-});
+})
 
 (function() {
     addAccountReqText();
