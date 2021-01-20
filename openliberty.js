@@ -22,15 +22,13 @@ function fixRegisterPage() {
     }
 }
 
-window.addEventListener('load', function changeTitleText() {
+$(function changeTitleText() {
     var signIn = document.querySelector('#login-form h2')
 
     if (signIn) {
         signIn.textContent = 'Access Cloud Hosted Guides'
     }
 })
-
-setTimeout(changeTitleText, 2000)
 
 (function() {
     addAccountReqText();
