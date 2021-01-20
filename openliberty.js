@@ -24,7 +24,7 @@ function fixRegisterPage() {
     }
 }
 
-function changeTitleText(e) {
+function changeTitleText() {
     var signIn = document.querySelector('#login-form h2')
 
     if (signIn) {
@@ -32,7 +32,7 @@ function changeTitleText(e) {
     }
 }
 
-(function runAll() {
+(function runAll(e) {
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
