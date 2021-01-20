@@ -34,4 +34,4 @@ $(window).bind("load", function() {
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
-});
+})();
