@@ -22,7 +22,7 @@ function fixRegisterPage() {
     }
 }
 
-$(function changeTitleText() {
+window.addEventListener('load', function changeTitleText() {
     var signIn = document.querySelector('#login-form h2')
 
     if (signIn) {
