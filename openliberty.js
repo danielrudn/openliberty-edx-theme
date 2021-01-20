@@ -34,4 +34,4 @@ setTimeout(function() {
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
-},5)();
+},1)();
