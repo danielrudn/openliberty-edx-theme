@@ -30,7 +30,7 @@ function changeTitleText() {
     }
 };
 
-document.addEventListener("DOMContentLoaded", function() {
+$(window).bind("load", function() {
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
