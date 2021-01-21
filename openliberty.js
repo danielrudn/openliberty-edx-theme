@@ -14,9 +14,9 @@ function fixRegisterPage() {
 
 
     if (ssoUsed) {
-        if (registerForm) {
-            registerForm.style.display = "block";
-        }
+        // if (registerForm) {
+        //     registerForm.style.display = "block";
+        // }
         if (loginForm) {
             loginForm.style.display = "block";
         }
