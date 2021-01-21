@@ -13,7 +13,6 @@ function fixRegisterPage() {
     var loginForm = document.querySelector('#login')
 
 
-    if (ssoUsed) {
         if (registerForm) {
             registerForm.style.display = "block";
         }
@@ -26,7 +25,6 @@ function fixRegisterPage() {
             }
             loginForm.style.display = "block";
         }
-    }
 }
 
 function changeTitleText() {
