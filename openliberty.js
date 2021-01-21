@@ -12,6 +12,9 @@ function fixRegisterPage() {
     var registerForm = document.querySelector('#register')
     var loginForm = document.querySelector('#login')
 
+location.reload(true);
+
+
     if (ssoUsed) {
         if (registerForm) {
             registerForm.style.display = "block";
@@ -31,7 +34,6 @@ function changeTitleText() {
 }
 
 setTimeout(function() {
-    location.reload(true);
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
