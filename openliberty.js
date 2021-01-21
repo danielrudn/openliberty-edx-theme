@@ -13,18 +13,14 @@ function fixRegisterPage() {
     var loginForm = document.querySelector('#login')
 
 
+    if (ssoUsed) {
         if (registerForm) {
             registerForm.style.display = "block";
         }
         if (loginForm) {
-            window.onload = function() {
-                if(!window.location.hash) {
-                    window.location = window.location + '#loaded';
-                    window.location.reload();
-                }
-            }
             loginForm.style.display = "block";
         }
+    }
 }
 
 function changeTitleText() {
