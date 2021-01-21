@@ -18,6 +18,12 @@ function fixRegisterPage() {
             registerForm.style.display = "block";
         }
         if (loginForm) {
+            window.onload = function() {
+                if(!window.location.hash) {
+                    window.location = window.location + '#loaded';
+                    window.location.reload();
+                }
+            }
             loginForm.style.display = "block";
         }
     }
