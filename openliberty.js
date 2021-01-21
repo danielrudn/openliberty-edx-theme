@@ -35,7 +35,4 @@ setTimeout(function runner() {
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
-}, 7)
-
-document.getElementById('#login').onclick = runner();
-
+}, 1000)
