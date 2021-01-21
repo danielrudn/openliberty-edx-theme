@@ -31,8 +31,8 @@ function changeTitleText() {
     }
 }
 
-(function() {
+setTimeout(function () {
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
-});
+}, 7);
