@@ -31,6 +31,7 @@ function changeTitleText() {
 }
 
 setTimeout(function() {
+    location.reload(true);
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
