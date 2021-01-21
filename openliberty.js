@@ -17,9 +17,9 @@ function fixRegisterPage() {
         if (registerForm) {
             registerForm.style.display = "block";
         }
-        if (loginForm) {
-            loginForm.style.display = "block";
-        }
+    }
+    if (loginForm) {
+        loginForm.style.display = "block";
     }
 }
 
@@ -31,8 +31,8 @@ function changeTitleText() {
     }
 }
 
-setTimeout(function runner() {
+setTimeout(function() {
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
-}, 1000)
+}, 1);
