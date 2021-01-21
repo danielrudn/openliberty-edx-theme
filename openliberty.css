@@ -54,11 +54,9 @@
   padding-top: 1.5rem;
 }
 
-form#login{
-  display:none;
-}
+form#login,
 form#register {
-  display: block;
+  display: grid;
   grid-template-columns: 1fr 1fr;
   grid-auto-flow: column;
   grid-column-gap: 128px;
