@@ -42,5 +42,6 @@ function changeTitleText() {
 setTimeout(function() {
     addAccountReqText();
     fixRegisterPage();
+    fixLoginPage();
     changeTitleText();
 }, 1);
