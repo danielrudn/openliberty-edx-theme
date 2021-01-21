@@ -17,9 +17,9 @@ function fixRegisterPage() {
         if (registerForm) {
             registerForm.style.display = "block";
         }
-    }
-    if (loginForm) {
-        loginForm.style.display = "block";
+        if (loginForm) {
+            loginForm.style.display = "block";
+        }
     }
 }
 
