@@ -7,6 +7,9 @@ function addAccountReqText() {
     }
 }
 
+    document.getElementById("#login").onclick = runner()
+
+
 function fixRegisterPage() {
     var ssoUsed = document.querySelector('.js-auth-warning')
     var registerForm = document.querySelector('#register')
@@ -31,7 +34,7 @@ function changeTitleText() {
     }
 }
 
-setTimeout(function () {
+setTimeout(function runner() {
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
