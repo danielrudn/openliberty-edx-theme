@@ -10,21 +10,13 @@ function addAccountReqText() {
 function fixRegisterPage() {
     var ssoUsed = document.querySelector('.js-auth-warning')
     var registerForm = document.querySelector('#register')
+    var loginForm = document.querySelector('#login')
 
 
     if (ssoUsed) {
         if (registerForm) {
             registerForm.style.display = "block";
         }
-    }
-}
-
-function fixLoginPage() {
-    var ssoUsed = document.querySelector('.js-auth-warning')
-    var loginForm = document.querySelector('#login')
-
-
-    if (ssoUsed) {
         if (loginForm) {
             loginForm.style.display = "block";
         }
@@ -42,6 +34,5 @@ function changeTitleText() {
 setTimeout(function() {
     addAccountReqText();
     fixRegisterPage();
-    fixLoginPage();
     changeTitleText();
 }, 1);
