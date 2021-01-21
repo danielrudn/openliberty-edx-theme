@@ -21,7 +21,6 @@ function reloadPage() {
     location.reload();
     } else {}
     }
-    reloadPage();
 
 function fixRegisterPage() {
     var ssoUsed = document.querySelector('.js-auth-warning')
