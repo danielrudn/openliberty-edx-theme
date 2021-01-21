@@ -7,7 +7,7 @@ function addAccountReqText() {
     }
 }
 
-    document.getElementById("#login").onclick = runner()
+    document.getElementById('#login').onclick = runner()
 
 
 function fixRegisterPage() {
