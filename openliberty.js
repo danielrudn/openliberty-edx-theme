@@ -11,14 +11,18 @@ function fixRegisterPage() {
     var ssoUsed = document.querySelector('.js-auth-warning')
     var registerForm = document.querySelector('#register')
     var loginForm = document.querySelector('#login')
+    var signInLink = document.querySelector('.toggle-form a')
 
 
     if (ssoUsed) {
-        // if (registerForm) {
-        //     registerForm.style.display = "block";
-        // }
+        if (registerForm) {
+            registerForm.style.display = "block";
+        }
         if (loginForm) {
             loginForm.style.display = "block";
+        }
+        if (signInLink){
+            signInLink.innerHTML = '';
         }
     }
 }
