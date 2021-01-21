@@ -11,7 +11,7 @@ function fixRegisterPage() {
     var ssoUsed = document.querySelector('.js-auth-warning')
     var registerForm = document.querySelector('#register')
     var loginForm = document.querySelector('#login')
-    var signInLink = document.querySelector('.toggle-form a')
+    var signInLink = document.querySelector('.toggle-form')
 
 
     if (ssoUsed) {
