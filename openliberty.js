@@ -39,4 +39,4 @@ setTimeout(function() {
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
-}, 1000);
+}, 100);
