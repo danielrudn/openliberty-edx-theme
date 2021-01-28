@@ -35,8 +35,8 @@ function changeTitleText() {
     }
 }
 
-document.addEventListener("DOMContentLoaded", function() {
+setTimeout(function() {
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
-});
+},10);
