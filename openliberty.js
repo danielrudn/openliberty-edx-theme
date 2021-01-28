@@ -35,8 +35,8 @@ function changeTitleText() {
     }
 }
 
-setTimeout(function() {
+window.addEventListener("load", function() {
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
-}, 100);
+});
