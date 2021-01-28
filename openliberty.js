@@ -35,7 +35,7 @@ function changeTitleText() {
     }
 }
 
-window.addEventListener("load", function() {
+document.addEventListener("DOMContentLoaded", function() {
     addAccountReqText();
     fixRegisterPage();
     changeTitleText();
