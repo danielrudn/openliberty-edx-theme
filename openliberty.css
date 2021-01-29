@@ -180,7 +180,7 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  padding-top: 1rem;
+  padding-top: .7rem;
   background-color: #d6d6d6;
   box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.1);
   border-top: 1px solid #c5c6c7;
@@ -188,7 +188,7 @@ footer {
 
 .footer__copyright {
   padding-top: .7rem;
-  padding-bottom: .5rem;
+  padding-bottom: .7rem;
 }
 
 /* Mobile */
