@@ -61,4 +61,5 @@ setTimeout(function() {
     addAccountReqText();
     fixRegisterPage();
     changePageText();
+    addFooter();
 },100);
