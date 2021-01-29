@@ -172,6 +172,19 @@ form#register input[type="text"] {
   background-color: #0730ad !important;
 }
 
+/* Footer */
+
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+}
+
+.footer__copyright {
+  padding-top: .7rem;
+}
+
 /* Mobile */
 @media (max-width: 767px) {
   form#login,
