@@ -33,18 +33,9 @@ function changePageText() {
     var createAccount = document.querySelector('#login-form > div.toggle-form > a')
     var forgotPassword = document.querySelector('#login > div.form-field.password-password > button')
 
-    if (signIn) {
-        signIn.textContent = 'Access cloud-hosted guides'
-    }
-
     if (emailReminder) {
         emailReminder.textContent = 'The email address you used to create an Open Liberty SkillsNetwork account.'
     }
-
-    if (createAccount) {
-        createAccount.text = 'Create an Open Liberty SkillsNetwork account.'
-    }
-
     if (forgotPassword) {
         forgotPassword.textContent = 'Forgot your password?'
     }
@@ -57,9 +48,9 @@ function addFooter() {
 }
 
 
-// setTimeout(function() {
-//     //addAccountReqText();
-//     fixRegisterPage();
-//     changePageText();
-//     addFooter();
-// },100);
+setTimeout(function() {
+    //addAccountReqText();
+    fixRegisterPage();
+    changePageText();
+    addFooter();
+},100);
