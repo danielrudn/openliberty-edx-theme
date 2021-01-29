@@ -35,8 +35,8 @@ function changeTitleText() {
     }
 }
 
-setTimeout(function() {
-    addAccountReqText();
-    fixRegisterPage();
-    changeTitleText();
-},100);
+// setTimeout(function() {
+//     addAccountReqText();
+//     fixRegisterPage();
+//     changeTitleText();
+// },100);
