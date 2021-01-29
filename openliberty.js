@@ -58,7 +58,7 @@ function addFooter() {
 
 
 setTimeout(function() {
-    addAccountReqText();
+    //addAccountReqText();
     fixRegisterPage();
     changePageText();
     addFooter();
