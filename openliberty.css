@@ -175,16 +175,20 @@ form#register input[type="text"] {
 /* Footer */
 
 footer {
-  position: fixed;
+  position: absolute;
   left: 0;
   bottom: 0;
   width: 100%;
   text-align: center;
+  padding-top: 1rem;
+  background-color: #d6d6d6;
+  box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.1);
+  border-top: 1px solid #c5c6c7;
 }
 
 .footer__copyright {
   padding-top: .7rem;
-  padding-bottom: .2rem;
+  padding-bottom: .5rem;
 }
 
 /* Mobile */
