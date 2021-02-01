@@ -50,7 +50,7 @@ function addFooter() {
 
 setTimeout(function() {
     //addAccountReqText();
-    fixRegisterPage();
+    // fixRegisterPage();
     changePageText();
     addFooter();
 },100);
