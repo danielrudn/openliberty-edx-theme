@@ -1,8 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap&family=IBM+Plex+Sans&display=swap');
 
-html {
-  position: relative;
-}
 
 .global-header .nav-links {
   display: none;
@@ -178,7 +175,7 @@ form#register input[type="text"] {
 /* Footer */
 
 footer {
-  position: relative;
+  position: fixed;
   left: 0;
   bottom: 0;
   width: 100%;
