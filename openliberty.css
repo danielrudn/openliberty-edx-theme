@@ -180,7 +180,7 @@ footer {
   bottom: 0;
   width: 100%;
   text-align: center;
-  padding-top: .7rem;
+  padding: .7rem;
   background-color: #d6d6d6;
   box-shadow: 0 -1px 5px 0 rgba(0,0,0,0.1);
   border-top: 1px solid #c5c6c7;
@@ -189,6 +189,16 @@ footer {
 .footer__copyright {
   padding-top: .7rem;
   padding-bottom: .7rem;
+}
+
+.wrapper-footer {
+  box-shadow: 0 0px 0px 0 rgb(0 0 0 / 0%);
+  border-top: 0px;
+  padding: 0px;
+}
+
+.footer-about-openedx {
+  display: none;
 }
 
 /* Mobile */
