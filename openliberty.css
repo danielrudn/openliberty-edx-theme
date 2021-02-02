@@ -50,6 +50,7 @@
   font-family: 'Asap', sans-serif;
   color: #2C2E50;
   letter-spacing: 0;
+  display: block;
   font-size: 2.2rem;
   padding-top: 1.5rem;
 }
