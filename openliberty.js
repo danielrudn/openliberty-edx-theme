@@ -52,5 +52,5 @@ setTimeout(function() {
     //addAccountReqText();
     // fixRegisterPage();
     changePageText();
-    addFooter();
+    // addFooter();
 },100);
