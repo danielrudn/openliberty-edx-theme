@@ -21,7 +21,13 @@
   max-width: 100%;
 }
 
-#login-and-registration-container,
+#login-and-registration-container {
+  margin: unset;
+  max-width: unset;
+  display: block;
+}
+
+
 #login-and-registration-container #login-anchor,
 #login-and-registration-container #register-anchor,
 #login-and-registration-container .toggle-form {
@@ -50,7 +56,6 @@
   font-family: 'Asap', sans-serif;
   color: #2C2E50;
   letter-spacing: 0;
-  display: block;
   font-size: 2.2rem;
   padding-top: 1.5rem;
 }
