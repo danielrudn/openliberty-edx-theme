@@ -21,13 +21,7 @@
   max-width: 100%;
 }
 
-#login-and-registration-container {
-  margin: unset;
-  max-width: unset;
-  display: block;
-}
-
-
+#login-and-registration-container,
 #login-and-registration-container #login-anchor,
 #login-and-registration-container #register-anchor,
 #login-and-registration-container .toggle-form {
